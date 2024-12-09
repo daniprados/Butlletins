@@ -20,7 +20,7 @@ if($argc > 1 && $argv[1] == "-h" || $argc == 1){
     echo "Crea els butlletins de cada alumne a la carpeta Butlletins/[nom del butlletí]\n";
     echo "Usage: php butlletins.php [-c] [nom del mòdul] [-v]\n\n";
     echo "Si s'indica el nom del butlletí, es creen el butlletí de cada alumne a la carpeta Butlletins/[nom del butlletí]\n";
-    echo "-c, es copien tots els butlletins a la carpeta amb el nom del mòdul.\n";
+    echo "-c, es copien tots els butlletins a la carpeta amb el nom del cicle i nivell (AiF 2A, DAW 2A...).\n";
     echo "-v, es mostra el procés de creació dels butlletins.\n";
     echo "-h, es mostra aquesta ajuda.\n\n";
     echo "Exemple: php butlletins.php 1DAW \n";
